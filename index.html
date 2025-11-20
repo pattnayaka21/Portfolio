@@ -17,6 +17,24 @@
 </head>
 <body>
 
+	<!-- Preloader -->
+	<div class="preloader" id="preloader">
+		<div class="loader">
+			<div class="loader-circle"></div>
+			<div class="loader-circle"></div>
+			<div class="loader-circle"></div>
+		</div>
+		<p>Loading...</p>
+	</div>
+
+	<!-- Scroll Progress Bar -->
+	<div class="progress-bar" id="progressBar"></div>
+
+	<!-- Theme Toggle Button -->
+	<button id="themeToggle" class="theme-toggle" title="Toggle Theme" aria-label="Toggle dark/light theme">
+		<i class='bx bx-moon'></i>
+	</button>
+
 	<!---header--->
 	<header>
 		<a href="#" class="logo"><img src="img/logo.jpg"></a>
@@ -25,9 +43,9 @@
 		<ul class="navbar">
 			<li><a href="#home" class="active">Home</a></li>
 			<li><a href="#about">About Me</a></li>
-			<li><a href="#menu">Skills</a></li>
-			<li><a href="#team">Promotions</a></li>
 			<li><a href="#blog">Blog</a></li>
+			<li><a href="#team">Promotions</a></li>
+			<li><a href="#menu">Skills</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	<!--	<a href="https://www.linkedin.com/in/ashish-pattnayak-b9108b123"  target="_blank"><img src="img/linkedin`.png " style="height : 20px ;width:20px"></img></a> -->
@@ -41,16 +59,14 @@
 	<section class="home" id="home">
 		<div class="home-text">
 			<h3>Hello,</h3>
-			<h1>- I  am <span style="color:red">Ashish</span>     <t>Pattnayak  		&#128512;</h1>
-			<p style="color:brown" ><b>A B.Tech 2022 Passout Seeking For Opportunities And Experience</b> <br>
-				<b style="color:rgb(222, 18, 59)"> Many templates have been used for different sections and divisions with different styling techniques.</b>
-				<span style="color:black" ><b>Scroll To The Bottom To Know More.. </b></span></p>
+			<h1>I am <span style="color:red">Ashish Pattnayak</span> &#128512;</h1>
+			
 			<a href="#about" class="btn">About Me</a>
 			<div class="social">
-				<a href="https://www.facebook.com/ashish.pattnayak.52" target="_blank"><i class='bx bxl-facebook' ></i></a>
-				<a href="https://instagram.com/pattnayak_a21?igshid=YmMyMTA2M2Y="  target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
-				<a href="https://twitter.com/Pattnayakashis?t=l2BV8RapIjpFmqkGuc8jOg&s=09"  target="_blank"><i class='bx bxl-twitter' ></i></a>
-				<a href="https://www.linkedin.com/in/ashish-pattnayak-b9108b123"  target="_blank"><img src="img/linkedin`.png " style="height : 20px ;width:20px"></img></a>
+				<a href="https://www.facebook.com/ashish.pattnayak.52" target="_blank" title="Follow on Facebook" aria-label="Facebook"><i class='bx bxl-facebook' ></i></a>
+				<a href="https://instagram.com/pattnayak_a21?igshid=YmMyMTA2M2Y="  target="_blank" title="Follow on Instagram" aria-label="Instagram"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="https://twitter.com/Pattnayakashis?t=l2BV8RapIjpFmqkGuc8jOg&s=09"  target="_blank" title="Follow on Twitter" aria-label="Twitter"><i class='bx bxl-twitter' ></i></a>
+				<a href="https://www.linkedin.com/in/ashish-pattnayak-b9108b123"  target="_blank" title="Connect on LinkedIn" aria-label="LinkedIn"><img src="img/linkedin`.png " style="height : 20px ;width:20px"></img></a>
 			</div>
 		</div>
 
@@ -67,12 +83,12 @@
 
 		<div class="about-text">
 			<h2 style="color: orange;">About Me</h2>
-			<b><p style="color: white">I have currently finished my last year of Engineering exams and I got placed in Cognizant, Capgemini and Wipro.<br><br><br>
+			<b><p style="color: white">
+Started my career with IQVIA in 2022 as Software Development Engineer now with a strong background in developing and maintaining applications and integration projects, proficient in .NET Core, Web API, React, and SQL. 				<br><br>
 				- Studied B.Tech (CSE) &#128187; from University Of Engineering And Management, Kolkata.<br>
 				- Schooling  &#128218; (Class I to XII) from Kendriya Vidyalaya No. 2, Salt Lake.<br>
 				- Curious 	&#129300; And Optimistic &#129488;<br>
 				- Cricket  &#127951; <br>
-				- Music &#127926; <br>
 				- Fluent Languages &#127541;  : Hindi, English, Odia, Bengali<br></b>
 				
 
@@ -81,118 +97,69 @@
 		</div>
 	</section>
 
-	<!---food menu--->
-	<section class="menu" id="menu">
+	<!---blog--->
+	<section class="blog" id="blog">
 		<div class="center-text">
-			<h3>Skills</h3>
-			<h2>On A Scale Of 10</h2>
+			<h3>Blog</h3>
+			<h2>My Blog Updates</h2>
 		</div>
 
-		<div class="menu-content">
-			<div class="box">
-				<div class="box-content">
-					<div class="box-img">
-						<img src="img/C.png">
-					</div>
+		<div class="blog-content">
+			<div class="main">
+				<img src="img/ecopark.jpg">
+				<div class="blog-text">
+					<h6>Oct 26, 2024</h6>
+					<h4>Lake Side View Of Eco Park, Kolkata</h4>
+					<p style="color:black">Eco-Tourism Park in Kolkata is an expansive urban park designed to promote eco-tourism in the city. It is the biggest urban park in India 
+						and occupies over 475 acres of land. The beauty of the location increases ten folds because of a water body that surrounds the park and 
+						forms an island in the middle. It is often visited by picnickers or those who want a quick escape from mundane lives. The beautiful and 
+						well-maintained landscape is a perfect retreat for nature lovers.</p>
 
-					<div class="box-text">
-						<h4>C</h4>
-						<span class="bar"><span class="c"></span></span>
-					</div>
-				</div>
-			</div>
-
-			<div class="box">
-				<div class="box-content">
-					<div class="box-img">
-						<img src="img/C++.png">
-					</div>
-				
-					<div class="box-text">
-						<h4>C++</h4>
-						<!-- <p>Whales and darkness moving form cattle</p>
-						<h6>$32</h6>   	-->
-						<span class="bar"><span class="cp"></span></span>
+					<div class="blog-btn">
+						<b><a href="https://maps.app.goo.gl/nCiVGTFwxEzL6RfcA" target="_blank">Eco Park Directions</a></b>
+						<span><i class='bx bx-right-arrow-alt' ></i></span>
 					</div>
 				</div>
 			</div>
 
-			<div class="box">
-				<div class="box-content">
-					<div class="box-img">
-						<img src="img/java.svg">
-					</div>
+			<div class="main">
+				<img src="img/post-3.jpg">
+				<div class="blog-text">
+					<h6>August 11, 2024</h6>
+					<h4>Banks Of River Hooghly, Kolkata From a Ferry In The Middle Of The River..</h4>
+					<p style="color:black">This is a view of a scene on the banks of the River Hooghly with many boats moored. The ghats are used as
+						landing places for boats and for people to perform their ritual ablutions. The Hooghly is the most westerly
+						 and commercially important arm of the Ganges river. Calcutta is a city and port in eastern India and the 
+						 capital of West Bengal. It was founded in 1690 by the British East India Company on the banks of the
+						  Hooghly River.</p>
 
-					<div class="box-text">
-						<h4>Java</h4>
-						<span class="bar"><span class="java"></span></span>
-					</div>
-				</div>
-			</div>
-
-			<div class="box">
-				<div class="box-content">
-					<div class="box-img">
-						<img src="img/python.png">
-					</div>
-
-					<div class="box-text">
-						<h4>Python</h4>
-						<span class="bar"><span class="python"></span></span>
+					<div class="blog-btn">
+						<b><a href="https://www.google.com/maps/dir//babughat/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3a02779ee2b4e401:0xd20740a209de61df?sa=X&ved=2ahUKEwitmvO37bz4AhXlxTgGHT6pDOoQ9Rd6BAgLEAQ"  target="_blank">Directions To The Nearest Jetty</a></b>
+						<span><i class='bx bx-right-arrow-alt' ></i></span>
 					</div>
 				</div>
 			</div>
 
-			<div class="box">
-				<div class="box-content">
-					<div class="box-img">
-						<img src="img/html.png">
-					</div>
+			<div class="main">
+				<img src="img/post-1.jpg">
+				<div class="blog-text">
+					<h6>May 12, 2024</h6>
+					<h4>A View From Noir Sky Lounge After A Wondeful Dinner And Rains In The City</h4>
+					<p style="color:black">Noir Sky Lounge is a closed roof city view resto with bar amenities. The food served here is 
+						top notch. There are many healthy options to order from the menu which are tasty and finger licking
+						too. There is also a setup for singers who sing to make customers' evening more beautiful. The ambience 
+						of the place is very appealing with view of the city from 3 sides of the roof. Little rain can add up
+						 to the beauty of the evenings..</p>
 
-					<div class="box-text">
-						<h4>HTML</h4>
-						<span class="bar"><span class="html"></span></span>
-					</div>
-				</div>
-			</div>
-
-			<div class="box">
-				<div class="box-content">
-					<div class="box-img">
-						<img src="img/css3.jpg">
-					</div>
-
-					<div class="box-text">
-						<h4>CSS</h4>
-						<span class="bar"><span class="css"></span></span>
+					<div class="blog-btn">
+						<b><a href="https://www.google.com/maps/dir/22.6000896,88.4277248/the+noir/@22.5939551,88.3944061,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a02750ca8bfe36d:0x5b0a84ff1264dd65!2m2!1d88.4120125!2d22.5903985"  target="_blank">Directions </a></b>
+						<span><i class='bx bx-right-arrow-alt' ></i></span>
 					</div>
 				</div>
 			</div>
 
-
-			<div class="box">
-				<div class="box-content">
-					<div class="box-img">
-						<img src="img/sql.png">
-					</div>
-
-					<div class="box-text">
-						<h4>MySQL</h4>
-						<span class="bar"><span class="sql"></span></span>
-					</div>
-				</div>
-			</div>
-
-			<div class="box">
-				<div class="box-content" style="height :314px">
-				</div>
-			</div>
+			
 		</div>
-		
-
-	<!--	<div class="box-btn">
-			<a href="#" class="btn">About Us</a>
-		</div>    	-->
 	</section>
 
 	<!---team--->
@@ -214,8 +181,8 @@
 					As the name suggests, the card helps you save a lot of money and earn big rewards on your 
 					daily expenses like grocery, dining, travel, shopping, and movies</h3><br>
 				<div class="team-icon">
-					<a href="https://www.paisabazaar.com/sbi-bank/sbi-simply-save-credit-card/"  target="_blank" button class="btn btn-blog">Detailed Description</button></a>
-                                <a href="https://www.sbicard.com/invite/2pQUuwS1G1I"  target="_blank" button class="btn btn-blog">Apply Here</button></a><br><br>
+					<a href="https://www.paisabazaar.com/sbi-bank/sbi-simply-save-credit-card/" target="_blank" class="btn btn-blog">Detailed Description</a>
+                                <a href="https://www.sbicard.com/invite/2pQUuwS1G1I" target="_blank" class="btn btn-blog">Apply Here</a><br><br>
 				</div>
 			</div>
 
@@ -227,8 +194,8 @@
 					can apply for slice and get a pre-approved credit line. Students are increasingly turning to
 					 credit to fund their living expenses and schooling on their own these days.</h3><br>
 				<div class="team-icon">
-					<a href="https://www.paisabazaar.com/credit-card/slice-super-credit-card/"  target="_blank" button class="btn btn-blog">Detailed Description</button></a>
-					<a href="https://links.sliceit.com/invite?rc=GROOT409963"  target="_blank" button class="btn btn-blog">Apply Here</button></a><br><br>
+					<a href="https://www.paisabazaar.com/credit-card/slice-super-credit-card/" target="_blank" class="btn btn-blog">Detailed Description</a>
+					<a href="https://links.sliceit.com/invite?rc=GROOT409963" target="_blank" class="btn btn-blog">Apply Here</a><br><br>
 				</div>
 			</div>
 
@@ -240,7 +207,7 @@
 					| Win Cashback & Coins Shopping offers, subscriptions & membership like book flight at money-saving offers, Cult live & exclusive Myntra shopping, 
 					Swiggy offers & cashback, discounts on lifestyle products for CRED members!</h3><br>
 				<div class="team-icon">
-					<a href="https://app.cred.club/spQx/rspq3729"  target="_blank" button class="btn btn-blog">Sign Up And Get Rs 250 joining reward</button></a>
+					<a href="https://app.cred.club/spQx/rspq3729" target="_blank" class="btn btn-blog">Sign Up And Get Rs 250 joining reward</a>
 				</div>
 			</div>
 		</div>
@@ -253,7 +220,7 @@
 					to claim products & discounts in the in-app 'Bazaar'. Walk your way to a better health and amazing rewards while tracking your daily steps,
 					 distance & calories.</h3><br>
 				<div class="team-icon">
-					<a href="https://www.stepsetgo.com/"  target="_blank" button class="btn btn-blog">Sign Up Using This Link And Get Bonus 100 Coins</button></a>
+					<a href="https://www.stepsetgo.com/" target="_blank" class="btn btn-blog">Sign Up Using This Link And Get Bonus 100 Coins</a>
 				</div>
 			</div>
 
@@ -265,7 +232,7 @@
 					 and freshness in a highly sustainable manner. It offers a wide range of fresh meat and seafood available to order through their website
 					  and have a delivery service across the country..</h3><br>
 				<div class="team-icon">
-					<a href="https://liciousapp.app.link/IChxAnkTEfb"  target="_blank" button class="btn btn-blog">Use This Link To Get ₹200 Off On Your First Order</button></a>
+					<a href="https://liciousapp.app.link/IChxAnkTEfb" target="_blank" class="btn btn-blog">Use This Link To Get ₹200 Off On Your First Order</a>
 				</div>
 			</div>
 
@@ -276,7 +243,7 @@
 				<h3>Zepto is defined as the shortest unit of measurable time in physics, which means speed is in our DNA. With Zepto in your life, you’ll never have to plan for 
 					groceries and daily needs again. Get what you want, when you want it, and have it delivered to your doorstep in only 10 minutes by Zepto..</h3><br>
 				<div class="team-icon">
-					<a href="https://zepto-prod.onelink.me/tC90/k0lloj1w"  target="_blank" button class="btn btn-blog"> Get 25% Off On Your First Order.</button></a>
+					<a href="https://zepto-prod.onelink.me/tC90/k0lloj1w" target="_blank" class="btn btn-blog">Get 25% Off On Your First Order</a>
 				</div>
 			</div>
 
@@ -285,93 +252,175 @@
 		</div>
 	</section>
 
-	<!---newsletter--->
-	<!--		<section>
-		<div class="container">
-			<div class="newsletter-content">
-				<div class="news-img">
-					<img src="img/discount.svg">
-				</div>
-
-				<div class="news-text">
-					<h3>Subscribe To Our</h3>
-					<h2>Newsletter</h2>
-					<p>Subscribe to our newsletter and receive 15% <br> discount from your order.</p>
-				</div>
-
-				<div class="letter">
-					<form>
-						<input type="email" name="email" placeholder="Your Email" required>
-						<input type="submit" value="Subscribe" required>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>   -->
-
-	<!---blog--->
-	<section class="blog" id="blog">
+	<!---food menu--->
+	<section class="menu" id="menu">
 		<div class="center-text">
-			<h3>Blog</h3>
-			<h2>My Blog Updates</h2>
+			<h3>Skills</h3>
+			<h2>On A Scale Of 10</h2>
 		</div>
 
-		<div class="blog-content">
-			<div class="main">
-				<img src="img/ecopark.jpg">
-				<div class="blog-text">
-					<h6>June 26, 2022</h6>
-					<h4>Lake Side View Of Eco Park, Kolkata</h4>
-					<p style="color:black">Eco-Tourism Park in Kolkata is an expansive urban park designed to promote eco-tourism in the city. It is the biggest urban park in India 
-						and occupies over 475 acres of land. The beauty of the location increases ten folds because of a water body that surrounds the park and 
-						forms an island in the middle. It is often visited by picnickers or those who want a quick escape from mundane lives. The beautiful and 
-						well-maintained landscape is a perfect retreat for nature lovers.</p>
+		<div class="menu-content">
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+					</div>
 
-					<div class="blog-btn">
-						<b><a href="https://maps.app.goo.gl/nCiVGTFwxEzL6RfcA" target="_blank">Eco Park Directions</a></b>
-						<span><i class='bx bx-right-arrow-alt' ></i></span>
+					<div class="box-text">
+						<h4>C#</h4>
+						<span class="bar"><span class="c"></span></span>
 					</div>
 				</div>
 			</div>
 
-			<div class="main">
-				<img src="img/post-3.jpg">
-				<div class="blog-text">
-					<h6>June 11, 2022</h6>
-					<h4>Banks Of River Hooghly, Kolkata From a Ferry In The Middle Of The River..</h4>
-					<p style="color:black">This is a view of a scene on the banks of the River Hooghly with many boats moored. The ghats are used as
-						landing places for boats and for people to perform their ritual ablutions. The Hooghly is the most westerly
-						 and commercially important arm of the Ganges river. Calcutta is a city and port in eastern India and the 
-						 capital of West Bengal. It was founded in 1690 by the British East India Company on the banks of the
-						  Hooghly River.</p>
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+					</div>
 
-					<div class="blog-btn">
-						<b><a href="https://www.google.com/maps/dir//babughat/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3a02779ee2b4e401:0xd20740a209de61df?sa=X&ved=2ahUKEwitmvO37bz4AhXlxTgGHT6pDOoQ9Rd6BAgLEAQ"  target="_blank">Directions To The Nearest Jetty</a></b>
-						<span><i class='bx bx-right-arrow-alt' ></i></span>
+					<div class="box-text">
+						<h4>React</h4>
+						<span class="bar"><span class="react"></span></span>
 					</div>
 				</div>
 			</div>
 
-			<div class="main">
-				<img src="img/post-1.jpg">
-				<div class="blog-text">
-					<h6>May 12, 2022</h6>
-					<h4>A View From Noir Sky Lounge After A Wondeful Dinner And Rains In The City</h4>
-					<p style="color:black">Noir Sky Lounge is a closed roof city view resto with bar amenities. The food served here is 
-						top notch. There are many healthy options to order from the menu which are tasty and finger licking
-						too. There is also a setup for singers who sing to make customers' evening more beautiful. The ambience 
-						of the place is very appealing with view of the city from 3 sides of the roof. Little rain can add up
-						 to the beauty of the evenings..</p>
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+					</div>
 
-					<div class="blog-btn">
-						<b><a href="https://www.google.com/maps/dir/22.6000896,88.4277248/the+noir/@22.5939551,88.3944061,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a02750ca8bfe36d:0x5b0a84ff1264dd65!2m2!1d88.4120125!2d22.5903985"  target="_blank">Directions </a></b>
-						<span><i class='bx bx-right-arrow-alt' ></i></span>
+					<div class="box-text">
+						<h4>TypeScript</h4>
+						<span class="bar"><span class="typescript"></span></span>
 					</div>
 				</div>
 			</div>
 
-			
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL">
+					</div>
+
+					<div class="box-text">
+						<h4>SQL</h4>
+						<span class="bar"><span class="sql"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis">
+					</div>
+
+					<div class="box-text">
+						<h4>Redis</h4>
+						<span class="bar"><span class="redis"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="img/html.png">
+					</div>
+
+					<div class="box-text">
+						<h4>HTML5</h4>
+						<span class="bar"><span class="html"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="img/css3.jpg">
+					</div>
+
+					<div class="box-text">
+						<h4>CSS</h4>
+						<span class="bar"><span class="css"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+					</div>
+
+					<div class="box-text">
+						<h4>Azure</h4>
+						<span class="bar"><span class="azure"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+					</div>
+
+					<div class="box-text">
+						<h4>Git</h4>
+						<span class="bar"><span class="git"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman">
+					</div>
+
+					<div class="box-text">
+						<h4>Postman</h4>
+						<span class="bar"><span class="postman"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="box-content">
+					<div class="box-img">
+						<img src="https://cdn.worldvectorlogo.com/logos/mulesoft.svg" alt="Mulesoft">
+					</div>
+
+					<div class="box-text">
+						<h4>Mulesoft</h4>
+						<span class="bar"><span class="mulesoft"></span></span>
+					</div>
+				</div>
+			</div>
+
+			<div class="box learning-box">
+				<div class="box-content">
+					<div class="box-img">
+						<i class='bx bx-book-reader' style="font-size: 60px; color: var(--main-color);"></i>
+					</div>
+
+					<div class="box-text">
+						<h4>Growing...</h4>
+						<span class="bar"><span class="learning"></span></span>
+					</div>
+				</div>
+			</div>
 		</div>
+		
+
+	<!--	<div class="box-btn">
+			<a href="#" class="btn">About Us</a>
+		</div>    	-->
 	</section>
 
 	<!---contact--->
@@ -390,24 +439,29 @@
 			<h3>Menu Links</h3>
 			<li><a href="#home" class="active">Home</a></li>
 			<li><a href="#about">About Me</a></li>
-			<li><a href="#menu">Skills</a></li>
-			<li><a href="#team">Promotions</a></li>
 			<li><a href="#blog">Blog</a></li>
+			<li><a href="#team">Promotions</a></li>
+			<li><a href="#menu">Skills</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</div>
 
 		<div class="contact-box address">
 			<h3>Contact</h3>
 			<a href="https://maps.app.goo.gl/DEXhASwmJD4Tum1A8" target="_blank"><i class='bx bxs-map' ><span>Salt Lake, Kolkata</span></i></a>
-			<i class='bx bxs-envelope' ><span>pattnayaka21@gmail.com</span></i>
-			<i class='bx bxs-phone' ><span>1234</span></i>
+			<i class='bx bxs-envelope' ><span>ashishpatt21@gmail.com</span></i>
+			<i class='bx bxs-phone' ><span>102</span></i>
 		</div>
 
 	</section>
 
 	<div class="end-text">
-		<p>©ASH 2022 Ashish Pattnayak :)</p>
+		<p>©ASH 2024 Ashish Pattnayak :)</p>
 	</div>
+
+	<!-- Scroll to Top Button -->
+	<button id="scrollToTop" class="scroll-to-top" title="Go to top">
+		<i class='bx bx-up-arrow-alt'></i>
+	</button>
 
 	<!---custom js link--->
 	<script type="text/javascript" src="js/script.js"></script>
